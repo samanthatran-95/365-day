@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "365 Questions",
+    "slug": "365-day",
+    "scheme": "questions365",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.codex.questions365",
+      "infoPlist": {
+        "NSUserNotificationUsageDescription": "We use notifications to remind you to answer today's question."
+      }
+    },
+    "android": {
+      "package": "com.codex.questions365"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-notifications",
+      "expo-asset"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "latestSupportedVersion": "1.0.1"
+    }
+  }
+}
